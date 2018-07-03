@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0;
+}
+/*--------------------------------------*/
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.header {
+  background-color: rgb(80, 80, 255);
+  height: 100px;
+}
+
+.menu {
+  background-color: burlywood;
+  height: calc(100% - 200px);
+  width: 20%;
+  float: left;
+}
+
+.content {
+  background-color: orange;
+  height: calc(100% - 200px);
+  width: 80%;
+  float: left;
+}
+
+.footer {
+  background-color: yellow;
+  height: 100px;
+  clear: both;
+}
