@@ -28,7 +28,7 @@ ul.menu > li > a {
   text-transform: uppercase;
   color: rgb(109, 109, 238);
   text-decoration: none;
-  transition: all .2s;
+  transition: all .5s;
   position: relative;
   display: block;
   background-color: #fff;
@@ -40,4 +40,5 @@ ul.menu > li > a:hover {
   top: 10px;
   box-shadow: 1px 1px 6px #666;
   transform: rotate(10deg);
+  color:red;
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>hello</h1>
+
+    <script>
+        function print() {
+            element.innerText = counter;
+        }
+
+        function move() {
+            element.style.left = counter + 'px';
+        }
+
+        function doWork() {
+            print();
+            move();
+            counter = counter + 1;
+        }
+
+        var element = document.querySelector('h1');
+        var counter = 0;
+
+        var myInterval = setInterval(doWork, 10);
+
+        // setTimeout(print, 1000);
+
+    </script>
+</body>
+
+</html>
